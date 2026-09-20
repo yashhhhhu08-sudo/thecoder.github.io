@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Recipe Finder</title>
+    <link rel="stylesheet" type="text/css" href="sty.css">
+</head>
+
+   <body style="background-image: url(C:\\Users\\USER\\Pictures\\file_00000000861481f5b204349961645ba8.png);">
+   <script>
+      function searchRecipe() {
+
+    let recipe = document.getElementById("searchInput").value;
+
+    if (recipe.trim() === "") {
+
+        alert("Please enter a recipe name!");
+
+    } else {
+
+        alert("Searching for: " + recipe);
+
+    }
+}
+   </script>
+	<header>
+		  
+            <h2 style="color:darkblue;">👨‍🍳 Recipe Finder</h2>
+        </div style="font-size: 20px;">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Favourite</a>
+        <a href="#">♡</a></div>
+	</header>
+	<center>
+		<div class="logo">👨‍🍳</div>
+	<h1>Recipe Finder</h1>
+	<p>Discover delicious recipes,one search at a time.</p>
+	<div class="decoration">───── ♡ ─────</div>
+<div class="search-box">
+	⌕<input type="text" name="search-input" placeholder="Search for your recipes......."><br>
+	<button onclick="searchRecipe()">
+   search
+</button>
+</div>
+<h2>Popular Categories</h2>
+<p>Explore recipes for every craving</p>
+ <div>
+                <img src="C:\Users\USER\Pictures\project\idly.jpeg" alt="BreakFast" height="300" width="300">
+               <br> <a href="breakfast.html"><b>BREAKFAST</b></a></div>
+               <div><img src="C:\Users\USER\Pictures\project\dinner.jpg" alt="Lunch" height="300" width="300">
+                <br><a href="lunch.html"><b>LUNCH</b></a></div>
+                <div><img src="C:\Users\USER\Pictures\project\snaks.jpeg" alt="Charts" height="300" width="300">
+                <br><a href="charts.html"><b>CHARTS</b></a></div>
+               <div> <img src="C:\Users\USER\Pictures\project\dessert.jpg" alt="Dessert" height="300" width="300">
+                <br><a href="dessert.html"><b>DESSERT</b></a></div>
+                <div><img src="C:\Users\USER\Pictures\project\salard.jpg" alt="salards" height="300" width="300">
+                <br><a href="snaks.html"><b>SNACKS</b></a></div>
+ </section>
+    <footer>
+        🌿 Good Food ♡ Good Mood 🌿
+    </footer>
+</body>
+</html>
